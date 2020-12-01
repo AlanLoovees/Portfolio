@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+.landing {
+  background: #000000;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing .details {
+  padding-left: 50%;
+  padding-top: 50vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.landing .name {
+  font-size: 7.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.landing .designation {
+  font-size: 3.5rem;
+}
+
+.about {
+  background-image: linear-gradient(to bottom right, #7400B8 , #6930C3, #5E60CE, #5390D9, #4EA8DE, #48BFE3, #56CFE1, #64DFDF, #72EFDD, #80FFDB);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  height: 105vh;
+  position: relative;
+}
+
+.about .blur {
+  position: absolute;
+  background: rgba(255,255,255,0.3);
+  backdrop-filter: blur(10px);
+  left: 10%;
+  top: 10%;
+  height: 80vh;
+  width: 80%;
+  border-radius: 40px;
+}
+
+.about .title {
+  font-size: 5.5rem;
+  padding-top: 3rem;
+  padding-left: 5rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.current {
+  background-image: linear-gradient(to top right, #2193b0, #6dd5ed);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  height: 105vh;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.current .blur {
+  position: absolute;
+  background: rgba(255,255,255,0.3);
+  backdrop-filter: blur(10px);
+  left: 10%;
+  top: 10%;
+  height: 80vh;
+  width: 80%;
+  border-radius: 40px;
+}
+
+.current .title {
+  font-size: 5.5rem;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  color: white;
+}
+
+.project {
+  background-image: linear-gradient(to bottom right, #614385, #516395);
+  /* background: #292961; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  height: 105vh;
+  position: relative;
+}
+
+.project .blur {
+  position: absolute;
+  background: rgba(255,255,255,0.3);
+  backdrop-filter: blur(10px);
+  left: 10%;
+  top: 10%;
+  height: 80vh;
+  width: 80%;
+  border-radius: 40px;
+}
+
+.project .title {
+  font-size: 5.5rem;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  color: white;
 }
